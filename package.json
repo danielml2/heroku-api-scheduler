@@ -1,0 +1,21 @@
+{
+  "name": "heroku-api-app",
+  "version": "1.0.0",
+  "description": "Rebooting heroku dynos on a schedule",
+  "main": "index.js",
+  "dependencies": {
+    "@types/heroku-client": "^3.1.0",
+    "dotenv": "^16.0.1",
+    "firebase": "^9.9.0",
+    "heroku-client": "^3.1.0",
+    "rxjs": "^7.5.6"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "node run index.js"
+  },
+  "author": "danielml2",
+  "license": "ISC"
+}
